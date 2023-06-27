@@ -1,0 +1,97 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+h1{
+    text-align: center;
+    padding: 0%;
+    margin: 10px;
+    color: #b22e2e;
+}
+.j1{
+    text-align: center;
+    padding: 0%;
+    margin: 20px;
+    color: #b22e2e;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    background-color: #fff;
+    width:70%;
+    margin:auto;
+    min-height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn1{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font: 100 1.1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 2%;
+    background-color: #14bdad;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    cursor:pointer;
+ }
+.btn1:hover{
+    background-color: #55c2da;
+}
+ textarea{
+    height: 30px;
+ }
+input,textarea{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font: 100 1.1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+}
+.task {
+    background-color: rgb(241, 235, 235);
+    margin-top: 3%;
+    font: 100 1.1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    color: rgb(40, 37, 37);
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vmax;
+}
+.task > div{
+    width:100%;
+}
+.deletebtn{
+    text-align: center;
+    background-color: red;
+    border: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    color: #fff;
+    font:5.6rem;
+    font-weight: 600;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
